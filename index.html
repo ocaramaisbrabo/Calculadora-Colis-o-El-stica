@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!---define a linguagem do html em português-->
+<head><!---inicia a cabeça do código-->
+    <meta charset="UTF-8"><!---meta charset é utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!---é usado para definir a escala inicial de exibição de uma página da web em dispositivos móveis-->
+    <title>Calculadora De Colisão Elástica</title><!---define o título-->
+    <link rel="stylesheet" href="style.css"><!---redireciona o link para o style.css-->
+    <script src="myscript.js"></script><!---vincula ao myscript para fazer o código java-->
+</head> <!---finaliza a cabeça do código-->
+<body><!---inicia o corpo do código-->
+    <div><!---inicia uma divisão de código-->
+        <h1>Calculadora de Colisão Elástica</h1><!---define o título principal-->
+        <form action="#" method="POST" id="formulario"><!---formulário-->
+            <div><!---finaliza uma divisão-->
+                <label for="massa1">Massa 1</label><!---é usada para associar um rótulo legível por humanos a um elemento de entrada-->
+                <input type="number" name="m1" id="massa1"><!---permite inserir dados ou fazer seleções interativas-->
+            </div><!---finaliza uma divisão de código-->
+
+            <div><!---inicia uma divisão de código-->
+                <label for="massa2">Massa 2</label><!---é usada para associar um rótulo legível por humanos a um elemento de entrada-->
+                <input type="number" name="m2" id="massa2"><!---permite inserir dados ou fazer seleções interativas-->
+            </div><!---finaliza uma divisão de código--->
+
+            <div><!---inicia uma divisão de código-->
+                <label for="velocidadeinicial1">Velocidade Inicial 1 (m/s)</label><!---é usada para associar um rótulo legível por humanos a um elemento de entrada-->
+                <input type="number" name="Vo" id="velocidadeinicial1"><!---permite inserir dados ou fazer seleções interativas-->
+            </div><!---finaliza uma divisão de código--->
+
+            <div><!---inicia uma divisão de código-->
+                <label for="velocidadeinicial2">Velocidade Inicial 2 (m/s)</label><!---é usada para associar um rótulo legível por humanos a um elemento de entrada-->
+                <input type="number" name="Vo" id="velocidadeinicial2"><!---permite inserir dados ou fazer seleções interativas-->
+            </div><!---finaliza uma divisão de código--->
+        </form><!---finaliza o formulário-->
+
+        <button type="button" onclick="calcular()" id="calcular">Calcular</button><!---cria um botão no site, quando clicado, chama a função calcular--->
+
+        <div><!---inicia uma divisão de código-->
+            <h2>Resultados</h2><!---mostra a aba resultados no site-->
+            <p id="resultadovelocidadeinicial1"></p><!---adiciona o resultado da velocidade inicial1-->
+            <p id="resultadovelocidadeinicial2"></p><!---adiciona o resultado da velocidade inicial2-->
+        </div><!---finaliza uma divisão de código-->
+</body><!---fecha o corpo do código-->
+</html><!---finaliza o html-->
+
+
